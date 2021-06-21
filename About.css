@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    width:100%;
+}
+
+.header{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(200, 114, 235);
+   
+}
+
+.header ul{
+    display:flex;
+    height:8vh;
+    justify-content: space-around;
+}
+.header ul li  {
+    padding: 25px 20px 0 20px;
+    font-size: 20px;
+    
+
+}
+.header ul li a {
+color: black;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list{
+    display:flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.background{
+    height:5vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-section{
+   
+    
+    display:flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    height: 70vh;
+}
+
+.main-section .background{
+    height:inherit;
+}
+.main-section .background i{
+    font-size: 35px;
+    padding:10px 5px 10px 5px;
+}
+.preethi{
+    display: flex;
+    flex-direction: column;
+}
+.preethi h1{
+    color: rgb(107, 4, 155);
+    font-family:  Helvetica, sans-serif;
+}
+.about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size:0.8em;
+}
+.mission p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size:0.8em;
+}
+.whoarewe p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size:0.8em;
+}
+.vision p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size:0.8em;
+}
+section{
+    position: relative;
+   
+    width: 100%;
+ 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+    padding: 0px 0px ;
+}
+section .background{
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: normal;
+    font-size: 35px;
+}
+i{
+    color: rgba(32, 32, 31, 0);
+    transition: 4s;
+    padding: 0 5px;
+    user-select: none;
+    cursor: default;
+    }
+
+i:hover{
+    color: rgb(94, 10, 128);
+    text-shadow: 0 0 220px rgb(2, 73, 131);
+    transition: 0s;
+}
+h1{
+    text-align: center;
+}
+.about space,.mission space,.vision space,.whoarewe space{
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+.logo{
+    background-image: url(aboutlogo.png);
+    background-size: 100% 100%;
+    width:160px;
+    height:inherit;
+    
+}
+.footer{
+    margin-top: 10px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    justify-content: space-around;
+  }
+  .one,.two,.three{
+    background: #80808024;
+    width:100%;
+    padding-top: 20px ;
+    display: flex;
+    justify-content: center;
+  }
+  .one h3{
+    font-weight: 250;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+  }
+  .two{
+    color: rgb(143, 31, 187);
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 40px;
+    border-bottom: 2px solid grey;
+  }
+  .three{
+    padding-bottom: 20px;
+    
+  }
+  .four{
+    padding-bottom: 20px;
+  }
+  #Contact{
+    margin-top: 8px;
+  }
+  
+  .footer p{
+    color: #fff;
+    font-weight: bold;
+    font-weight: 400;
+  }  
+  .two li{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:0 70px;
+  }
+  .three li{
+    float: left;
+    font-size: 0.8em;
+    padding: 0 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .four li{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+  }
+  .footer i{
+      color: rgb(143, 31, 187);
+  }
